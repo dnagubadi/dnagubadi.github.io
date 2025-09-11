@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declan's Design System</title>
+    <link rel="stylesheet" href="https://use.typekit.net/rzg4btb.css">
+    <style>
+        html
+        {
+            font-family: "borax-variable", sans-serif;
+            font-variation-settings: "wght" 400;
+        }
+
+        body
+        {
+            margin: 20px;
+            line-height: 1.5;
+        }
+
+        h1
+        {
+            font-size: 32px;
+        }
+
+        h2
+        {
+            font-size: 24px;
+        }
+
+        h3
+        {
+            font-size: 18px;
+        }
+
+        p
+        {
+            font-size: 14px;
+        }
+
+        .small-text
+        {
+            font-size: 12px;
+        }
+
+        :root
+        {
+            --space-xs: 8px;
+            --space-s: 16px;
+            --space-m: 24px;
+            --space-l: 32px;
+            --space-xl: 48px;
+        }
+
+        .color-palette
+        {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+
+        .color-box
+        {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            
+        }
+
+        #box1
+        {
+            background-color: #bce784;
+            color: #000;
+        }
+
+        #box2
+        {
+            background-color: #5dd39e;
+            color: #000;
+        }
+
+        #box3
+        {
+            background-color: #348aa7;
+            color: #fff;
+        }
+
+        #box4
+        {
+            background-color: #525174;
+            color: #fff;
+        }
+
+        #box5
+        {
+            background-color: #513b56;
+            color: #fff;
+        }
+
+        .spacing > div
+        {
+            background-color: #e0e0e0;
+            margin-bottom: var(--space-s);
+            padding: var(--space-m);
+            border-radius: 4px;
+        }
+
+        .primary-btn
+        {
+            background: #348aa7;
+            color: white;
+            padding: var(--space-s) var(--space-m);
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: var(--space-s);
+            transition: background 0.3s;
+        }
+
+        .primary-btn:hover
+        {
+            background: #5dd39e;
+        }
+
+        .primary-btn:focus
+        {
+            outline: 3px solid #525174;
+        }
+
+        a
+        {
+            color: #348aa7;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover
+        {
+            color: #5dd39e;
+            text-decoration: underline;
+        }
+
+        section
+        {
+            margin-bottom: var(--space-xl);
+        }
+
+        section h2
+        {
+            margin-bottom: var(--space-s);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Design System</h1>
+    </header>
+
+    <section>
+        <h2>Color Palette</h2>
+        <div class="color-palette">
+            <div class="color-box" id="box1">#bce784</div>
+            <div class="color-box" id="box2">#5dd39e</div>
+            <div class="color-box" id="box3">#348aa7</div>
+            <div class="color-box" id="box4">#525174</div>
+            <div class="color-box" id="box5">#513b56</div>
+        </div>
+    </section>
+
+    <section>
+        <h1>H1 Heading</h1>
+        <h2>H2 Heading</h2>
+        <h3>H3 Heading</h3>
+        <p>Body text: The quick brown fox jumps over the lazy dog.</p>
+        <p class="small-text">Small text: The quick brown fox jumps over the lazy dog.</p>
+    </section>
+
+    <section>
+        <div class="spacing">
+            <div>Spacing XS: 8px</div>
+            <div>Spacing S: 16px</div>
+            <div>Spacing M: 24px</div>
+            <div>Spacing L: 32px</div>
+            <div>Spacing XL: 48px</div>
+        </div>
+    </section>
+
+    <section>
+        <button class="primary-btn"> Button</button>
+        <p><a href="#">Hover</a></p>
+    </section>
+
+    <section>
+        <h2>Design Reflection</h2>
+        <p>My design system reflects my personal style and identity through color, typography, and spacing choices. I selected a color palette that feels calm and balanced, combining shades of green, blue, and purple. The typography uses a clean and modern sans-serif font that feels approachable while still professional. Using different heading sizes and body text allows me to create a clear hierarchy and makes content easy to read.</p>
+    
+        <p>Accessibility was an important factor in designing this system. I tested color combinations for sufficient contrast to ensure readability for all users. I also added clear styles for buttons and links so people navigating with keyboards can easily see where they are on the page. One challenge was balancing colors that I personally liked with ones that were more accessible. I found that adjustments to saturation and brightness allowed me to keep my preferred aesthetic.</p>
+    
+        <p>Creating a cohesive design system helped me understand how different visual elements work together. I was surprised at how small changes in spacing or color can affect the overall feel of a page. Defining a consistent spacing scale and font sizes makes it easier to build pages that look balanced and professional. I can apply this system to future projects, including my portfolio, to maintain a consistent visual identity across different pages and components.</p>
+    
+        <p>In the future, I might expand this system by adding more interactive components to cover more types of content. I may also explore different color palettes for different contexts while keeping the typography and spacing consistent. Overall, this system provides a good foundation for designing interfaces that are both visually appealing and user friendly. It is flexible enough to adapt to various projects while maintaining a consistent style.</p>
+    </section>
+    
+    
+    
+    
+
+    
+</body>
+</html>
