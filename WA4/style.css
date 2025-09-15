@@ -58,6 +58,7 @@ p {
     border-radius: 4px;
 }
 
+
 .primary-btn {
     background: #348aa7;
     color: white;
@@ -68,8 +69,10 @@ p {
     text-align: center;
 }
 
+
 .primary-btn:hover {
     background: #5dd39e;
+    text-decoration: underline;
 }
 
 .primary-btn:focus {
