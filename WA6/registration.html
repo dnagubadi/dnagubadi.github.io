@@ -25,16 +25,29 @@
   <div class="content-container">
     <h1>Register for the League</h1>
     <div class="text-field">Full Name: <input type="text" id="fullName"></div>
-    <div class="text-field">Age: <input type="text" id="Age"></div>
+    <div class="text-field">Age: <input type="text" id="age"></div>
     <div class="text-field">Team Name <input type="text" id="teamName"></div>
-    <div class="text-field">Email: <input type="text" id="Email"></div>
-    <div class="text-field">Division: <input type="text" id="Division"></div>
-    <button>Submit Registration</button>
+    <div class="text-field">Email: <input type="text" id="email"></div>
+    <div class="text-field">Division: <input type="text" id="division"></div>
+    <button id ="regButton">Submit Registration</button>
   </div>
-  <div class="registration-container">
-    <h1>Your Registration Info</h1>
+  <div id ="receipt">
+    <h2>Registration Confirmed</h2>
+    <p><strong>Name: </strong><span id="rName"></span></p>
+    <p><strong>Age: </strong><span id="rAge"></span></p>
+    <p><strong>Team:</strong> <span id="rTeam"></span></p>
+    <p><strong>Email:</strong> <span id="rEmail"></span></p>
+    <p><strong>Division:</strong> <span id="rDivision"></span></p>
+    <p>Thank you for registering! A confirmation email will be sent shortly.</p>
+    <button id="resetButton">Register Another Player</button>
+  </div>
+
+  <div id="errorMessage" style="color: red; font-weight: bold;"></div>
+
+
+
     
-    
+
 
   </div>
   <script src="script.js"></script>

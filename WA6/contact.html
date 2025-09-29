@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Denver Men’s Baseball League - Registration</title>
+  <title>Denver Men’s Baseball League - Contact</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,19 +23,20 @@
   </nav>
 
   <div class="content-container">
-    <h1>Register for the League</h1>
-    <div class="text-field">Full Name: <input type="text" id="fullName"></div>
-    <div class="text-field">Age: <input type="text" id="Age"></div>
-    <div class="text-field">Team Name <input type="text" id="teamName"></div>
-    <div class="text-field">Email: <input type="text" id="Email"></div>
-    <div class="text-field">Division: <input type="text" id="Division"></div>
-    <button>Submit Registration</button>
+    <h1>Contact Us</h1>
+    <div class="text-field">Full Name: <input type="text" id="cName"></div>
+    <div class="text-field">Email: <input type="text" id="cEmail"></div>
+    <div class="text-field">Message: <input type="text" id="cMessage"></div>
+    <button id="contactButton" >Send Message</button>
   </div>
-  <div class="registration-container">
-    <h1>Your Registration Info</h1>
-    
-    
 
+  <div id="contactError" style="color: red; font-weight: bold;"></div>
+
+
+  <div class="content-container">
+    <h2>League Contact Info</h2>
+    <div class="text-field">Email: info@denvermensbaseball.com</div>
+    <div class="text-field">Phone: (555) 123-4567</div>
   </div>
   <script src="script.js"></script>
 </body>

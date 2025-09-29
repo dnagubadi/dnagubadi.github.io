@@ -11,7 +11,6 @@ filterButtons.forEach(button => {
   });
 });
 
-// Filtering function
 function filterPhotos(category) {
   photoCards.forEach(card => {
     if (category === 'all' || card.dataset.category === category) {
